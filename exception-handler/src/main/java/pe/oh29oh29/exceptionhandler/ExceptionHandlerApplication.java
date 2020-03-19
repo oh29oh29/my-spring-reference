@@ -1,13 +1,13 @@
-package pe.oh29oh29.myspringreference;
+package pe.oh29oh29.exceptionhandler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MySpringReferenceApplication {
+public class ExceptionHandlerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MySpringReferenceApplication.class, args);
+        SpringApplication.run(ExceptionHandlerApplication.class, args);
     }
 
 }
