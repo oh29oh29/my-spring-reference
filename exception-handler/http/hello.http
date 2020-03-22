@@ -13,4 +13,14 @@ GET http://localhost:8080/case02
 ### CustomHandlerExceptionResolver
 GET http://localhost:8080/case02/2
 
+
+
+### CASE 03
+
+### ControllerAdvice
+GET http://localhost:8080/case03
+
+### ControllerAdvice2
+GET http://localhost:8080/case03Another
+
 ###
