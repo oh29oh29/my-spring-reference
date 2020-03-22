@@ -1,4 +1,13 @@
+### CASE 01
+
 ### hello
 GET http://localhost:8080/case01
+
+
+
+### CASE 02
+
+### MyResourceNotFoundException
+GET http://localhost:8080/case02
 
 ###
