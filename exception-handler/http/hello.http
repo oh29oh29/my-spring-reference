@@ -23,4 +23,11 @@ GET http://localhost:8080/case03
 ### ControllerAdvice2
 GET http://localhost:8080/case03Another
 
+
+
+### CASE 04
+
+### ResponseStatusException
+GET http://localhost:8080/case04
+
 ###
