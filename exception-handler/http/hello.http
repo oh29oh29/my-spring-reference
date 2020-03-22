@@ -10,4 +10,7 @@ GET http://localhost:8080/case01
 ### MyResourceNotFoundException
 GET http://localhost:8080/case02
 
+### CustomHandlerExceptionResolver
+GET http://localhost:8080/case02/2
+
 ###

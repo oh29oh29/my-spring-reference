@@ -9,4 +9,8 @@ public class HelloService2 {
     public void hello() {
         throw new MyResourceNotFoundException();
     }
+
+    public void hello2() {
+        throw new IllegalArgumentException();
+    }
 }

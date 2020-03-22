@@ -19,4 +19,9 @@ public class HelloController2 {
     public void hello() {
         helloService2.hello();
     }
+
+    @GetMapping("/2")
+    public void hello2() {
+        helloService2.hello2();
+    }
 }
