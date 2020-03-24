@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 public class Task {
 
     /**
-     * Fixed Delay
+     * Fixed Rate
      * <p>
      * This option should be used when each execution of the task is independent.
      * <p>
