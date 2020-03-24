@@ -1,2 +1,2 @@
 scheduling:
-  mode: fixed_delay
+  mode: fixed_rate
