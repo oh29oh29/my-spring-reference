@@ -1,4 +1,5 @@
 rootProject.name = 'my-spring-reference'
 include 'exception-handler'
 include 'scheduled'
+include 'retryable'
 
