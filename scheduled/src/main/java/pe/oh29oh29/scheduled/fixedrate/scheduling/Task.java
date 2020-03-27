@@ -22,10 +22,10 @@ public class Task {
      * Note that scheduled tasks don't run in parallel by default.
      * So even if we used fixedRate, the next task won't be invoked until the previous one is done.
      */
-    @Scheduled(fixedRate = 1_000)
-    public void scheduleFixedDelayTask() throws InterruptedException {
-        log.info("[Scheduled] Fixed rate task: " + System.currentTimeMillis() / 1000);
-        Thread.sleep(2000);
+    @Scheduled(fixedRate = 5_000)
+    public void scheduleFixedRateTask() throws InterruptedException {
+        log.info("[Scheduled] Fixed rate task: " + System.currentTimeMillis() / 1_000);
+        Thread.sleep(2_000);
     }
 
 }

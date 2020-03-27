@@ -22,9 +22,9 @@ public class Task {
      * <p>
      * This option should be used when it’s mandatory that the previous execution is completed before running again.
      */
-    @Scheduled(fixedDelay = 1_000)
+    @Scheduled(fixedDelay = 5_000)
     public void scheduleFixedDelayTask() throws InterruptedException {
-        log.info("[Scheduled] Fixed rate task: " + System.currentTimeMillis() / 1000);
+        log.info("[Scheduled] Fixed delay task: " + System.currentTimeMillis() / 1_000);
         Thread.sleep(2_000);
     }
 
