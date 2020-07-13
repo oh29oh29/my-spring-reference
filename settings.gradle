@@ -4,4 +4,8 @@ include 'scheduled'
 include 'retryable'
 include 'batch'
 include 'db-sharding'
+include 'db-autocommit'
+include 'db-jpa-entity'
+include 'db-jpa-entity-mapping'
+include 'config-web'
 
